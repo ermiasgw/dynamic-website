@@ -1,9 +1,10 @@
 <?php
+    require_once '../app/config/Config.php';
     class Database{
-        private $dbHost='localhost:3306';
-        private $dbUser ='root';
-        private $dbPass ='';
-        private $dbName ='dynamic';
+        private $dbHost=DB_HOST;
+        private $dbUser =DB_USER;
+        private $dbPass =DB_PASS;
+        private $dbName =DB_NAME;
 
         private $dbHandler;
         private $statement;

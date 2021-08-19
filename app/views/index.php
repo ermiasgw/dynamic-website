@@ -1,1 +1,2 @@
-mbgjhbjhbmn
+<?php
+    echo "home page";
