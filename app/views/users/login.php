@@ -3,24 +3,12 @@
     <body>
         
     
-        <form action="<?php echo URLROOT;?>/users/login" method="post">
-            <label for="uname">user name</label>
-            <input type="text" name="uname"><br>
-            <span> <?php echo $data['unameerror'];?></span>
-            <label for="pass">password</label> 
-            <input type="password" name="pass"><br>
+        <form action="" method="post">
+            user name:<input type="text" name="username"><br>
+            <span> <?php echo $data['usernameError'];?></span><br>
+            password:<input type="password" name="password"><br>
+            <span> <?php echo $data['passwordError'];?></span><br>
             <input type="submit" value="login">
         </form>  
         </body>
-
-
-
-
-
 </html>
-
-
-
-<?php
-    echo $data['title'];
-    ?>
